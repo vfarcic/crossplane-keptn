@@ -146,10 +146,10 @@ spec:
         forProvider:
           namespace: keptn-helm-service
           chart:
-            name: helm-service
+            # name: helm-service
             url: https://github.com/keptn/keptn/releases/download/0.8.7/helm-service-0.8.7.tgz
             # repository: https://github.com/keptn/keptn/tree/master/helm-service/chart/
-            version: "0.1.0"
+            # version: "0.1.0"
     patches:
     - fromFieldPath: spec.id
       toFieldPath: spec.providerConfigRef.name
