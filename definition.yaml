@@ -148,7 +148,7 @@ spec:
           chart:
             url: https://github.com/keptn/keptn/releases/download/0.8.7/helm-service-0.8.7.tgz
           valuesFrom:
-            secretKeyRef:
+          - secretKeyRef:
               key: keptn-values.yaml
               name: keptn-values
               namespace: crossplane-system

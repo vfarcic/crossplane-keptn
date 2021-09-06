@@ -1,4 +1,0 @@
-remoteControlPlane:
-  enabled: false
-  api:
-    token: THIS_IS_A_TOKEN
